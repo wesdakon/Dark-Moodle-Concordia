@@ -1,0 +1,273 @@
+/* To do list:
+	- finish up code
+	- do main webpage next
+	- check quizzes and assignment dropboxes
+	- add disable button
+	- add customizable colors
+*/
+
+/*---------- Login webpage -----------*/
+/* background picture */
+#branding {
+	filter: brightness(25%);
+}
+
+/* login form */
+#content {
+	background-color: rgba(255,255,255, .7);
+}
+
+#login::before {
+	color: white;
+}
+
+#moodle-exception-message {
+	color: white;
+}
+/*------------------------------------*/
+
+
+/*---------- Moodle webpage ----------*/
+/* most items bg color */
+#region-main, .card, .block, .list-group-item, .btn-light, .menu, .dropdown-menu, .dropdown-item, .bg-pulse-grey, .empty-icon-container, .overlay-icon-container, div.message-app, div.bg-white, div.bg-light, .popover-region-container, .popover-region-footer-container, .moodle-dialogue-content, .fp-thumbnail, .conversationcontainer, .body-container, .editor_atto_toolbar, .dndupload-target, .editor_atto_content_wrap, .course-summaryitem, .filemanager th.yui3-datatable-header, .filemanager .yui3-datatable-even td.yui3-datatable-cell, .filemanager .yui3-datatable-odd td.yui3-datatable-cell, .modal-content {
+	background-color: #333333 !important
+}
+
+/* background Image */
+body {
+	background-image: url('https://raw.githubusercontent.com/Fyelne/Dark-Moodle/main/images/background.png') !important;
+}
+
+/* section border radius */
+section {
+	border-radius: 10px; 
+}
+
+/* larger text */
+h1, h3 {
+	color: white;
+	font-family: Verdana;
+}
+
+/* most text */
+div, p, h2, h4, h5, h6, h4 > span {
+	color: white !important;
+	font-family: Verdana;
+}
+
+span {
+	color: white;
+	font-family: Verdana;
+}
+
+/* table data color */
+td, th {
+	background-color: #333333 !important;
+	color: lightgray !important;
+}
+
+.activity img.activityicon {
+	filter: saturate(80%);
+}
+
+li.modtype_lti {
+	background-color: #767676;
+}
+/*------------------------------------*/
+/*----------- Top bar area -----------*/
+/* bar main color */
+#page-wrapper > nav {
+	background-color: #343a40 !important;
+}
+
+/* bar center area color */
+.navbar-nav {
+	background-color: #343a40 !important;
+	color: white !important;
+}
+
+/* top left button */
+#page-wrapper > nav > div > button {
+	background-color: #727e8c !important;
+	border-radius: 6px;
+	height: 35px;
+	border: none;
+}
+
+/* icons color */
+#page-site-index {
+	color: white;
+}
+
+/* logo */
+nav.navbar .logo img {
+	filter: brightness(140%);
+	filter: 
+}
+
+/* courses text */
+#page-wrapper > nav > a > span {
+	color: white;
+}
+
+/* student name */
+#action-menu-toggle-1 > span > span {
+	color: white;
+	margin-left: 10px;
+}
+
+/* Academic Integrity, Get Help, English (en) */
+.navbar-nav .nav-link {
+	color: white !important;
+}
+
+/* logo background color */
+.navbar-brand {
+	background-color: #343a40 !important;
+}
+/*------------------------------------*/
+
+
+/*---------- Navigation bar ----------*/
+/* each li text color */
+li {
+	color: lightgrey;
+}
+
+/* each li color */
+span.media-body {
+	color: darkgray;
+}
+
+span.media-body.font-weight-bold {
+	color: white;
+}
+
+div.nav-drawer {
+	background-color: #333333 !important;
+}
+/*------------------------------------*/
+
+
+/*--------- Dashboard webpage --------*/
+/* top cards border radius and color */
+.card dashboard-card {
+	background-color: #6d7986;
+	border-radius: 10px;
+	border: solid;
+}
+
+/* page buttons */
+a[class*='page-link'] {
+	background-color: #4e5760;
+	border: none;
+}
+
+/* pisabled buttons*/
+li[class*='page-item'] {
+	color: #24282c !important;
+}
+
+/* card deck colors and borders */
+div.card-deck {
+	background-color: #555555;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding: 12px 7px 7px;
+}
+
+div.dashboard-card-deck div.dashboard-card, .card-img {
+	border-radius: 10px;
+}
+
+a.dropdown-item {
+	color: white;
+}
+
+#course-info-container-149050-2 > div > div > div > span.text-truncate {
+	color: white;
+}
+/*------------------------------------*/
+
+
+/*--------- Course webpage -----------*/
+/* course sections, dates */
+.sectionname {
+	color: white;
+}
+
+/* quizzes 1 */
+#gridshadebox_content.absolute {
+	background-color: grey;
+}
+
+/* quizzes 2 */
+#gridshadebox_content ul.gtopics .sectionname {
+	padding-top: 20px;
+}
+
+/* quizzes 3 */
+.que div.info, div.formulation.clearfix, .que .formulation > div {
+	color: white;
+	background-color: #555555;
+	border: none;
+}
+
+/* quiz outcome 1 */
+.que div.outcome {
+	background-color: #a1a1a1;
+}
+
+/* quiz outcome 2 */
+.que div.outcome span {
+	color: black !important;
+}
+
+
+/*------------------------------------*/
+
+
+/*--------- Footer Section -----------*/
+/* page footer color */
+#page-footer {
+	background-color: #343a40 !important;
+}
+
+/* footer message */
+footer::after {
+	content: "May your eyes hurt less, and your GPA be blessed. \a Brought to you by Abdul (Originally by Fyelene)";
+	font-size: small;
+	white-space: pre;
+	text-align: center;
+	display: block;
+}
+/*------------------------------------*/
+
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+
+
+/* (Scrollbar code attributed to Fyelene) */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-button {
+	width: 0px;
+	height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #b2b2b2;
+	border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
+	background: #777777;
+}
+
+::-webkit-scrollbar-track, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-track:hover, ::-webkit-scrollbar-track:active {
+	background: #333;
+}
